@@ -1,0 +1,6 @@
+@IndexProfitAPI_HostAddress = http://localhost:5285
+
+GET {{IndexProfitAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

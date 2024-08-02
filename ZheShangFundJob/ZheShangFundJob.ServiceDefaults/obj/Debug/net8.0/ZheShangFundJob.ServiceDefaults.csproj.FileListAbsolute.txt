@@ -1,0 +1,12 @@
+C:\Users\localadmin\source\repos\ZheShangFundJob\ZheShangFundJob.ServiceDefaults\bin\Debug\net8.0\ZheShangFundJob.ServiceDefaults.deps.json
+C:\Users\localadmin\source\repos\ZheShangFundJob\ZheShangFundJob.ServiceDefaults\bin\Debug\net8.0\ZheShangFundJob.ServiceDefaults.dll
+C:\Users\localadmin\source\repos\ZheShangFundJob\ZheShangFundJob.ServiceDefaults\bin\Debug\net8.0\ZheShangFundJob.ServiceDefaults.pdb
+C:\Users\localadmin\source\repos\ZheShangFundJob\ZheShangFundJob.ServiceDefaults\obj\Debug\net8.0\ZheShangFundJob.ServiceDefaults.csproj.AssemblyReference.cache
+C:\Users\localadmin\source\repos\ZheShangFundJob\ZheShangFundJob.ServiceDefaults\obj\Debug\net8.0\ZheShangFundJob.ServiceDefaults.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\localadmin\source\repos\ZheShangFundJob\ZheShangFundJob.ServiceDefaults\obj\Debug\net8.0\ZheShangFundJob.ServiceDefaults.AssemblyInfoInputs.cache
+C:\Users\localadmin\source\repos\ZheShangFundJob\ZheShangFundJob.ServiceDefaults\obj\Debug\net8.0\ZheShangFundJob.ServiceDefaults.AssemblyInfo.cs
+C:\Users\localadmin\source\repos\ZheShangFundJob\ZheShangFundJob.ServiceDefaults\obj\Debug\net8.0\ZheShangFundJob.ServiceDefaults.csproj.CoreCompileInputs.cache
+C:\Users\localadmin\source\repos\ZheShangFundJob\ZheShangFundJob.ServiceDefaults\obj\Debug\net8.0\ZheShangFundJob.ServiceDefaults.dll
+C:\Users\localadmin\source\repos\ZheShangFundJob\ZheShangFundJob.ServiceDefaults\obj\Debug\net8.0\refint\ZheShangFundJob.ServiceDefaults.dll
+C:\Users\localadmin\source\repos\ZheShangFundJob\ZheShangFundJob.ServiceDefaults\obj\Debug\net8.0\ZheShangFundJob.ServiceDefaults.pdb
+C:\Users\localadmin\source\repos\ZheShangFundJob\ZheShangFundJob.ServiceDefaults\obj\Debug\net8.0\ref\ZheShangFundJob.ServiceDefaults.dll
