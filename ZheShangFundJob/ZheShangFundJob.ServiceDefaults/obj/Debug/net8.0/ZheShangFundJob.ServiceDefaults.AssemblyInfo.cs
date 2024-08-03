@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ZheShangFundJob.ServiceDefaults")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+afa6c86745463eb4356fc5b55eb9cefa21971569")]
 [assembly: System.Reflection.AssemblyProductAttribute("ZheShangFundJob.ServiceDefaults")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ZheShangFundJob.ServiceDefaults")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
