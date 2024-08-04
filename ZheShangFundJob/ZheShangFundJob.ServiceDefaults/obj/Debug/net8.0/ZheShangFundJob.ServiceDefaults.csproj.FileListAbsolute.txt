@@ -10,3 +10,16 @@ C:\Users\localadmin\source\repos\ZheShangFundJob\ZheShangFundJob.ServiceDefaults
 C:\Users\localadmin\source\repos\ZheShangFundJob\ZheShangFundJob.ServiceDefaults\obj\Debug\net8.0\refint\ZheShangFundJob.ServiceDefaults.dll
 C:\Users\localadmin\source\repos\ZheShangFundJob\ZheShangFundJob.ServiceDefaults\obj\Debug\net8.0\ZheShangFundJob.ServiceDefaults.pdb
 C:\Users\localadmin\source\repos\ZheShangFundJob\ZheShangFundJob.ServiceDefaults\obj\Debug\net8.0\ref\ZheShangFundJob.ServiceDefaults.dll
+D:\source\repos\git_repo\homework\ZheShangFundJob\ZheShangFundJob.ServiceDefaults\bin\Debug\net8.0\ZheShangFundJob.ServiceDefaults.deps.json
+D:\source\repos\git_repo\homework\ZheShangFundJob\ZheShangFundJob.ServiceDefaults\bin\Debug\net8.0\ZheShangFundJob.ServiceDefaults.dll
+D:\source\repos\git_repo\homework\ZheShangFundJob\ZheShangFundJob.ServiceDefaults\bin\Debug\net8.0\ZheShangFundJob.ServiceDefaults.pdb
+D:\source\repos\git_repo\homework\ZheShangFundJob\ZheShangFundJob.ServiceDefaults\obj\Debug\net8.0\ZheShangFundJob.ServiceDefaults.csproj.AssemblyReference.cache
+D:\source\repos\git_repo\homework\ZheShangFundJob\ZheShangFundJob.ServiceDefaults\obj\Debug\net8.0\ZheShangFundJob.ServiceDefaults.GeneratedMSBuildEditorConfig.editorconfig
+D:\source\repos\git_repo\homework\ZheShangFundJob\ZheShangFundJob.ServiceDefaults\obj\Debug\net8.0\ZheShangFundJob.ServiceDefaults.AssemblyInfoInputs.cache
+D:\source\repos\git_repo\homework\ZheShangFundJob\ZheShangFundJob.ServiceDefaults\obj\Debug\net8.0\ZheShangFundJob.ServiceDefaults.AssemblyInfo.cs
+D:\source\repos\git_repo\homework\ZheShangFundJob\ZheShangFundJob.ServiceDefaults\obj\Debug\net8.0\ZheShangFundJob.ServiceDefaults.csproj.CoreCompileInputs.cache
+D:\source\repos\git_repo\homework\ZheShangFundJob\ZheShangFundJob.ServiceDefaults\obj\Debug\net8.0\ZheShangFundJob.ServiceDefaults.sourcelink.json
+D:\source\repos\git_repo\homework\ZheShangFundJob\ZheShangFundJob.ServiceDefaults\obj\Debug\net8.0\ZheShangFundJob.ServiceDefaults.dll
+D:\source\repos\git_repo\homework\ZheShangFundJob\ZheShangFundJob.ServiceDefaults\obj\Debug\net8.0\refint\ZheShangFundJob.ServiceDefaults.dll
+D:\source\repos\git_repo\homework\ZheShangFundJob\ZheShangFundJob.ServiceDefaults\obj\Debug\net8.0\ZheShangFundJob.ServiceDefaults.pdb
+D:\source\repos\git_repo\homework\ZheShangFundJob\ZheShangFundJob.ServiceDefaults\obj\Debug\net8.0\ref\ZheShangFundJob.ServiceDefaults.dll
