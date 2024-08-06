@@ -1,4 +1,5 @@
-﻿using NPOI.SS.Formula.Functions;
+﻿using IndexProfitAPI.Model;
+using NPOI.SS.Formula.Functions;
 using NPOI.SS.UserModel;
 using System.Data;
 
@@ -6,27 +7,55 @@ namespace IndexProfitAPI.IndexProfitBLL
 {
     public class IndexProfitCalBLL
     {
-        public async Task<string> GetRes(string beginDate, string endDate)
+        public async Task<List<IndexProfitRes>> GetRes(string beginDate, string endDate)
         {
-
+            List<IndexProfitRes> res = new List<IndexProfitRes>();
             DataTable dataTable = this.GetExcelData("../IndexProfitAPI/File/作业.xlsx", "数据",7);
             DataRow[] dataRows = dataTable.AsEnumerable().Where(row => DateTime.Parse(beginDate) <= row.Field<DateTime>("日期") &&
             DateTime.Parse(endDate) >= row.Field<DateTime>("日期")).OrderBy(row=> row.Field<DateTime>("日期")).ToArray();
-
-            //上证指数涨跌幅 贵州茅台涨跌幅 股票单日涨跌幅 - 上证指数涨跌幅 相对收益
-            double indexPlus,
-            for (int rows = 0; rows < dataRows.Length; rows++)
-            {
-                if (rows == 0)
-                {
-
+            if (dataRows.Count() > 0)
+            { 
+                Dictionary<string,double> dicInfo= new Dictionary<string,double>();
+                foreach (var column in dataRows[0].Table.Columns) {
+                    if (column.ToString() != "日期" && column.ToString() != "上证指数")
+                    {
+                        dicInfo.Add(column.ToString(), double.MinValue);
+                    }
                 }
-                else
-                { 
-                
+                //上证指数涨跌幅 贵州茅台涨跌幅 股票单日涨跌幅 - 上证指数涨跌幅 相对收益
+                for (int rows = 0; rows < dataRows.Length; rows++)
+                {
+                    string tDate= dataRows[rows]["日期"].ToString();
+                    foreach (var info in dicInfo)
+                    {
+                        IndexProfitRes indexProfitRes = new IndexProfitRes();
+                        indexProfitRes.TDate = tDate;
+                        indexProfitRes.StockName = info.Key;
+                        if (!dataRows[rows][info.Key].Equals(default(object)))
+                        {
+                            if (info.Value == double.MinValue)
+                                dicInfo[info.Key] = 1;
+                            else
+                            {
+                                if (rows != 0)
+                                {
+                                    DataRow drLast = dataRows[rows - 1];
+                                    double growStock=(double)dataRows[rows][info.Key] / 
+                                        (double)drLast[info.Key] - 1;
+                                    double growIndex = (double)dataRows[rows]["上证指数"] /
+                                       (double)drLast["上证指数"] - 1;
+                                    double growth = (growStock - growIndex + 1) * (double)dicInfo[info.Key];
+                                    dicInfo[info.Key] = growth;
+                                }
+                            }
+                            indexProfitRes.IndexProfit = dicInfo[info.Key].ToString("0.00");
+                            res.Add(indexProfitRes);
+                        }
+                    }
                 }
             }
-            return $"{beginDate}__{endDate}------{dataRows.Count()}";
+           
+            return res;
         }
 
         /// <summary>
@@ -110,23 +139,6 @@ namespace IndexProfitAPI.IndexProfitBLL
             DateTime excelDate = startDate.Add(days);
             return excelDate;
         }
-    }
-
-    public class IndexProfitRes
-    {
-        /// <summary>
-        /// 日期
-        /// </summary>
-        public string? TDate { get; set; }
-        /// <summary>
-        /// 股票名称
-        /// </summary>
-        public string? StockName { get; set; }
-        /// <summary>
-        /// 当日上证指数相对收益
-        /// </summary>
-        public string? IndexProfit { get; set; }
-
     }
 
 }

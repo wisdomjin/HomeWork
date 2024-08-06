@@ -1,4 +1,5 @@
 ﻿using IndexProfitAPI.IndexProfitBLL;
+using IndexProfitAPI.Model;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -15,10 +16,10 @@ namespace IndexProfitAPI.Conrollers
 
         [HttpGet()]
         [Route("{beginDate}/{endDate}")]
-        public async Task<ActionResult<string>> GetProfitInfo(string beginDate, string endDate)
+        public async Task<ActionResult<List<IndexProfitRes>>> GetProfitInfo(string beginDate, string endDate)
         {
-            string res = await _indexProfitCalBLL.GetRes(beginDate, endDate);
-            return new ActionResult<string>(res);
+            List<IndexProfitRes> res = await _indexProfitCalBLL.GetRes(beginDate, endDate);
+            return new ActionResult<List<IndexProfitRes>>(res);
         }
     }
 }

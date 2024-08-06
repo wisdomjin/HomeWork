@@ -3911,23 +3911,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\admin\\.nuget\\packages\\": {},
+    "C:\\Users\\localadmin\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\source\\repos\\git_repo\\homework\\ZheShangFundJob\\IndexProfitAPI\\IndexProfitAPI.csproj",
+      "projectUniqueName": "C:\\Users\\localadmin\\source\\repos\\ZheShangFundJob\\IndexProfitAPI\\IndexProfitAPI.csproj",
       "projectName": "IndexProfitAPI",
-      "projectPath": "D:\\source\\repos\\git_repo\\homework\\ZheShangFundJob\\IndexProfitAPI\\IndexProfitAPI.csproj",
-      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "D:\\source\\repos\\git_repo\\homework\\ZheShangFundJob\\IndexProfitAPI\\obj\\",
+      "projectPath": "C:\\Users\\localadmin\\source\\repos\\ZheShangFundJob\\IndexProfitAPI\\IndexProfitAPI.csproj",
+      "packagesPath": "C:\\Users\\localadmin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\localadmin\\source\\repos\\ZheShangFundJob\\IndexProfitAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\localadmin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3943,8 +3943,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\source\\repos\\git_repo\\homework\\ZheShangFundJob\\ZheShangFundJob.ServiceDefaults\\ZheShangFundJob.ServiceDefaults.csproj": {
-              "projectPath": "D:\\source\\repos\\git_repo\\homework\\ZheShangFundJob\\ZheShangFundJob.ServiceDefaults\\ZheShangFundJob.ServiceDefaults.csproj"
+            "C:\\Users\\localadmin\\source\\repos\\ZheShangFundJob\\ZheShangFundJob.ServiceDefaults\\ZheShangFundJob.ServiceDefaults.csproj": {
+              "projectPath": "C:\\Users\\localadmin\\source\\repos\\ZheShangFundJob\\ZheShangFundJob.ServiceDefaults\\ZheShangFundJob.ServiceDefaults.csproj"
             }
           }
         }
