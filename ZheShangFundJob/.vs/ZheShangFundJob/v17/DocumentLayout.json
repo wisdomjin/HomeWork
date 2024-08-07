@@ -50,8 +50,7 @@
               "RelativeToolTip": "IndexProfitAPI\\Model\\IndexProfitRes.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvwIAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T10:48:42.512Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-06T10:48:42.512Z"
             },
             {
               "$type": "Document",
@@ -63,8 +62,7 @@
               "RelativeToolTip": "ZheShangFundJob.AppHost\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T10:11:28.515Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-06T10:11:28.515Z"
             },
             {
               "$type": "Document",
@@ -76,8 +74,7 @@
               "RelativeToolTip": "IndexProfitAPI\\IndexProfitAPI.http",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-08-06T10:11:28.593Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-06T10:11:28.593Z"
             },
             {
               "$type": "Document",
@@ -87,7 +84,7 @@
               "RelativeDocumentMoniker": "IndexProfitAPI\\IndexProfitBLL\\IndexProfitCalBLL.cs",
               "ToolTip": "C:\\Users\\localadmin\\source\\repos\\ZheShangFundJob\\IndexProfitAPI\\IndexProfitBLL\\IndexProfitCalBLL.cs",
               "RelativeToolTip": "IndexProfitAPI\\IndexProfitBLL\\IndexProfitCalBLL.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAQwCYAAAAcAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAYwBkAAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-06T10:11:28.593Z",
               "EditorCaption": ""
@@ -100,7 +97,7 @@
               "RelativeDocumentMoniker": "IndexProfitAPI\\Conrollers\\ProfitController.cs",
               "ToolTip": "C:\\Users\\localadmin\\source\\repos\\ZheShangFundJob\\IndexProfitAPI\\Conrollers\\ProfitController.cs",
               "RelativeToolTip": "IndexProfitAPI\\Conrollers\\ProfitController.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAywBcAAAAFAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABQAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-06T10:11:28.609Z",
               "EditorCaption": ""
@@ -115,8 +112,7 @@
               "RelativeToolTip": "IndexProfitAPI\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T10:11:28.609Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-06T10:11:28.609Z"
             }
           ]
         }

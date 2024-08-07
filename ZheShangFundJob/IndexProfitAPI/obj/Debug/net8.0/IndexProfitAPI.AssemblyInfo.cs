@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IndexProfitAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3c1ae2130d52d6225158efd4fcb25eaf5f9c31a4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+96257f29a2df2ab4119dfe6b8f0def20c3fe0e70")]
 [assembly: System.Reflection.AssemblyProductAttribute("IndexProfitAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IndexProfitAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

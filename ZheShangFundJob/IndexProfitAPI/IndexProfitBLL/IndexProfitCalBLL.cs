@@ -25,13 +25,13 @@ namespace IndexProfitAPI.IndexProfitBLL
                 //上证指数涨跌幅 贵州茅台涨跌幅 股票单日涨跌幅 - 上证指数涨跌幅 相对收益
                 for (int rows = 0; rows < dataRows.Length; rows++)
                 {
-                    string tDate= dataRows[rows]["日期"].ToString();
+                    string tDate= ((DateTime)dataRows[rows]["日期"]).ToString("yyyy-MM-dd");
                     foreach (var info in dicInfo)
                     {
                         IndexProfitRes indexProfitRes = new IndexProfitRes();
                         indexProfitRes.TDate = tDate;
                         indexProfitRes.StockName = info.Key;
-                        if (!dataRows[rows][info.Key].Equals(default(object)))
+                        if (dataRows[rows][info.Key].GetType() != typeof(System.DBNull))
                         {
                             if (info.Value == double.MinValue)
                                 dicInfo[info.Key] = 1;
@@ -40,21 +40,31 @@ namespace IndexProfitAPI.IndexProfitBLL
                                 if (rows != 0)
                                 {
                                     DataRow drLast = dataRows[rows - 1];
-                                    double growStock=(double)dataRows[rows][info.Key] / 
-                                        (double)drLast[info.Key] - 1;
-                                    double growIndex = (double)dataRows[rows]["上证指数"] /
-                                       (double)drLast["上证指数"] - 1;
-                                    double growth = (growStock - growIndex + 1) * (double)dicInfo[info.Key];
-                                    dicInfo[info.Key] = growth;
+                                    if (drLast[info.Key].GetType() != typeof(System.DBNull))
+                                    {
+                                        double growStock = (double)dataRows[rows][info.Key] /
+                                            (double)drLast[info.Key] - 1;
+                                        double growIndex = (double)dataRows[rows]["上证指数"] /
+                                           (double)drLast["上证指数"] - 1;
+                                        double growth = (growStock - growIndex + 1) * (double)dicInfo[info.Key];
+                                        dicInfo[info.Key] = growth;
+                                    }
                                 }
                             }
                             indexProfitRes.IndexProfit = dicInfo[info.Key].ToString("0.00");
                             res.Add(indexProfitRes);
                         }
+                        else
+                        {
+                            if (info.Value != double.MinValue)
+                            {
+                                indexProfitRes.IndexProfit = dicInfo[info.Key].ToString("0.00");
+                                res.Add(indexProfitRes);
+                            }
+                        }
                     }
                 }
             }
-           
             return res;
         }
 
