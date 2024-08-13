@@ -103,3 +103,4 @@ D:\source\repos\git_repo\homework\ZheShangFundJob\ZheShangFundJob.AppHost\obj\De
 D:\source\repos\git_repo\homework\ZheShangFundJob\ZheShangFundJob.AppHost\obj\Debug\net8.0\ZheShangFundJob.AppHost.pdb
 D:\source\repos\git_repo\homework\ZheShangFundJob\ZheShangFundJob.AppHost\obj\Debug\net8.0\ZheShangFundJob.AppHost.genruntimeconfig.cache
 D:\source\repos\git_repo\homework\ZheShangFundJob\ZheShangFundJob.AppHost\obj\Debug\net8.0\ref\ZheShangFundJob.AppHost.dll
+C:\Users\localadmin\source\repos\ZheShangFundJob\ZheShangFundJob.AppHost\obj\Debug\net8.0\ZheShangFundJob.AppHost.sourcelink.json

@@ -20,4 +20,10 @@
     <ProjectReference Include="..\ZheShangFundJob.ServiceDefaults\ZheShangFundJob.ServiceDefaults.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="File\作业.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>

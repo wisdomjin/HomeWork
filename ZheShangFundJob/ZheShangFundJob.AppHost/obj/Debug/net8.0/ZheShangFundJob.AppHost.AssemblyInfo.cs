@@ -24,7 +24,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ZheShangFundJob.AppHost")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3c1ae2130d52d6225158efd4fcb25eaf5f9c31a4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+80722b429f6f8016d4da7df018f2ca158068203b")]
 [assembly: System.Reflection.AssemblyProductAttribute("ZheShangFundJob.AppHost")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ZheShangFundJob.AppHost")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

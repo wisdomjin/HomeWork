@@ -10,7 +10,7 @@ namespace IndexProfitAPI.IndexProfitBLL
         public async Task<List<IndexProfitRes>> GetRes(string beginDate, string endDate)
         {
             List<IndexProfitRes> res = new List<IndexProfitRes>();
-            DataTable dataTable = this.GetExcelData("../IndexProfitAPI/File/作业.xlsx", "数据",7);
+            DataTable dataTable = this.GetExcelData("File/作业.xlsx", "数据",7);
             DataRow[] dataRows = dataTable.AsEnumerable().Where(row => DateTime.Parse(beginDate) <= row.Field<DateTime>("日期") &&
             DateTime.Parse(endDate) >= row.Field<DateTime>("日期")).OrderBy(row=> row.Field<DateTime>("日期")).ToArray();
             if (dataRows.Count() > 0)

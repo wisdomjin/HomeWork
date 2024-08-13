@@ -1,6 +1,15 @@
 using IndexProfitAPI.IndexProfitBLL;
 
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddCors(policy =>
+{
+    policy.AddPolicy("Crospolicy", opt =>
+    {
+        opt.AllowAnyHeader()
+        .AllowAnyOrigin()
+        .AllowAnyMethod();
+    });
+});
 builder.Services.AddControllers();
 builder.Services.AddScoped<IndexProfitCalBLL>();
 
@@ -9,6 +18,7 @@ builder.AddServiceDefaults();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
 
 var app = builder.Build();
 //aaterst
@@ -23,4 +33,5 @@ app.MapDefaultEndpoints();
 
 //app.UseHttpsRedirection();
 app.MapControllers();
+app.UseCors("Crospolicy");
 app.Run();
