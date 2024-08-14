@@ -3,14 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\localadmin\\source\\repos\\ZheShangFundJob\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ACA7FA14-36E6-459C-89E5-A40424B7ACBB}|IndexProfitAPI\\IndexProfitAPI.csproj|c:\\users\\localadmin\\source\\repos\\zheshangfundjob\\indexprofitapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ACA7FA14-36E6-459C-89E5-A40424B7ACBB}|IndexProfitAPI\\IndexProfitAPI.csproj|solutionrelative:indexprofitapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F13FBCE-ADC5-4B95-80A2-A74A51479825}|ZheShangFundJob.AppHost\\ZheShangFundJob.AppHost.csproj|c:\\users\\localadmin\\source\\repos\\zheshangfundjob\\zheshangfundjob.apphost\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F13FBCE-ADC5-4B95-80A2-A74A51479825}|ZheShangFundJob.AppHost\\ZheShangFundJob.AppHost.csproj|solutionrelative:zheshangfundjob.apphost\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6D42864E-760A-466C-864B-3B5CAE0C14C3}|IndexProfitWeb\\IndexProfitWeb.csproj|c:\\users\\localadmin\\source\\repos\\zheshangfundjob\\indexprofitweb\\pages\\profit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6D42864E-760A-466C-864B-3B5CAE0C14C3}|IndexProfitWeb\\IndexProfitWeb.csproj|solutionrelative:indexprofitweb\\pages\\profit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -19,24 +11,48 @@
       "RelativeMoniker": "D:0:0:{6D42864E-760A-466C-864B-3B5CAE0C14C3}|IndexProfitWeb\\IndexProfitWeb.csproj|solutionrelative:indexprofitweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ACA7FA14-36E6-459C-89E5-A40424B7ACBB}|IndexProfitAPI\\IndexProfitAPI.csproj|c:\\users\\localadmin\\source\\repos\\zheshangfundjob\\indexprofitapi\\indexprofitbll\\indexprofitcalbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ACA7FA14-36E6-459C-89E5-A40424B7ACBB}|IndexProfitAPI\\IndexProfitAPI.csproj|solutionrelative:indexprofitapi\\indexprofitbll\\indexprofitcalbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6D42864E-760A-466C-864B-3B5CAE0C14C3}|IndexProfitWeb\\IndexProfitWeb.csproj|c:\\users\\localadmin\\source\\repos\\zheshangfundjob\\indexprofitweb\\indexprofitweb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6D42864E-760A-466C-864B-3B5CAE0C14C3}|IndexProfitWeb\\IndexProfitWeb.csproj|solutionrelative:indexprofitweb\\indexprofitweb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ACA7FA14-36E6-459C-89E5-A40424B7ACBB}|IndexProfitAPI\\IndexProfitAPI.csproj|c:\\users\\localadmin\\source\\repos\\zheshangfundjob\\indexprofitapi\\model\\indexprofitres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ACA7FA14-36E6-459C-89E5-A40424B7ACBB}|IndexProfitAPI\\IndexProfitAPI.csproj|solutionrelative:indexprofitapi\\model\\indexprofitres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6D42864E-760A-466C-864B-3B5CAE0C14C3}|IndexProfitWeb\\IndexProfitWeb.csproj|c:\\users\\localadmin\\source\\repos\\zheshangfundjob\\indexprofitweb\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D42864E-760A-466C-864B-3B5CAE0C14C3}|IndexProfitWeb\\IndexProfitWeb.csproj|solutionrelative:indexprofitweb\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ACA7FA14-36E6-459C-89E5-A40424B7ACBB}|IndexProfitAPI\\IndexProfitAPI.csproj|c:\\users\\localadmin\\source\\repos\\zheshangfundjob\\indexprofitapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{ACA7FA14-36E6-459C-89E5-A40424B7ACBB}|IndexProfitAPI\\IndexProfitAPI.csproj|solutionrelative:indexprofitapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D42864E-760A-466C-864B-3B5CAE0C14C3}|IndexProfitWeb\\IndexProfitWeb.csproj|c:\\users\\localadmin\\source\\repos\\zheshangfundjob\\indexprofitweb\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6D42864E-760A-466C-864B-3B5CAE0C14C3}|IndexProfitWeb\\IndexProfitWeb.csproj|solutionrelative:indexprofitweb\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7F13FBCE-ADC5-4B95-80A2-A74A51479825}|ZheShangFundJob.AppHost\\ZheShangFundJob.AppHost.csproj|c:\\users\\localadmin\\source\\repos\\zheshangfundjob\\zheshangfundjob.apphost\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7F13FBCE-ADC5-4B95-80A2-A74A51479825}|ZheShangFundJob.AppHost\\ZheShangFundJob.AppHost.csproj|solutionrelative:zheshangfundjob.apphost\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ACA7FA14-36E6-459C-89E5-A40424B7ACBB}|IndexProfitAPI\\IndexProfitAPI.csproj|c:\\users\\localadmin\\source\\repos\\zheshangfundjob\\indexprofitapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{ACA7FA14-36E6-459C-89E5-A40424B7ACBB}|IndexProfitAPI\\IndexProfitAPI.csproj|solutionrelative:indexprofitapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{7F13FBCE-ADC5-4B95-80A2-A74A51479825}|ZheShangFundJob.AppHost\\ZheShangFundJob.AppHost.csproj|c:\\users\\localadmin\\source\\repos\\zheshangfundjob\\zheshangfundjob.apphost\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7F13FBCE-ADC5-4B95-80A2-A74A51479825}|ZheShangFundJob.AppHost\\ZheShangFundJob.AppHost.csproj|solutionrelative:zheshangfundjob.apphost\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F13FBCE-ADC5-4B95-80A2-A74A51479825}|ZheShangFundJob.AppHost\\ZheShangFundJob.AppHost.csproj|c:\\users\\localadmin\\source\\repos\\zheshangfundjob\\zheshangfundjob.apphost\\obj\\debug\\net8.0\\aspire\\references\\indexprofitapi.projectmetadata.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F13FBCE-ADC5-4B95-80A2-A74A51479825}|ZheShangFundJob.AppHost\\ZheShangFundJob.AppHost.csproj|solutionrelative:zheshangfundjob.apphost\\obj\\debug\\net8.0\\aspire\\references\\indexprofitapi.projectmetadata.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F13FBCE-ADC5-4B95-80A2-A74A51479825}|ZheShangFundJob.AppHost\\ZheShangFundJob.AppHost.csproj|c:\\users\\localadmin\\source\\repos\\zheshangfundjob\\zheshangfundjob.apphost\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F13FBCE-ADC5-4B95-80A2-A74A51479825}|ZheShangFundJob.AppHost\\ZheShangFundJob.AppHost.csproj|solutionrelative:zheshangfundjob.apphost\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACA7FA14-36E6-459C-89E5-A40424B7ACBB}|IndexProfitAPI\\IndexProfitAPI.csproj|c:\\users\\localadmin\\source\\repos\\zheshangfundjob\\indexprofitapi\\model\\indexprofitres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACA7FA14-36E6-459C-89E5-A40424B7ACBB}|IndexProfitAPI\\IndexProfitAPI.csproj|solutionrelative:indexprofitapi\\model\\indexprofitres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D42864E-760A-466C-864B-3B5CAE0C14C3}|IndexProfitWeb\\IndexProfitWeb.csproj|c:\\users\\localadmin\\source\\repos\\zheshangfundjob\\indexprofitweb\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D42864E-760A-466C-864B-3B5CAE0C14C3}|IndexProfitWeb\\IndexProfitWeb.csproj|solutionrelative:indexprofitweb\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACA7FA14-36E6-459C-89E5-A40424B7ACBB}|IndexProfitAPI\\IndexProfitAPI.csproj|c:\\users\\localadmin\\source\\repos\\zheshangfundjob\\indexprofitapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACA7FA14-36E6-459C-89E5-A40424B7ACBB}|IndexProfitAPI\\IndexProfitAPI.csproj|solutionrelative:indexprofitapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACA7FA14-36E6-459C-89E5-A40424B7ACBB}|IndexProfitAPI\\IndexProfitAPI.csproj|c:\\users\\localadmin\\source\\repos\\zheshangfundjob\\indexprofitapi\\indexprofitbll\\indexprofitcalbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACA7FA14-36E6-459C-89E5-A40424B7ACBB}|IndexProfitAPI\\IndexProfitAPI.csproj|solutionrelative:indexprofitapi\\indexprofitbll\\indexprofitcalbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6D42864E-760A-466C-864B-3B5CAE0C14C3}|IndexProfitWeb\\IndexProfitWeb.csproj|c:\\users\\localadmin\\source\\repos\\zheshangfundjob\\indexprofitweb\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -49,14 +65,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6D42864E-760A-466C-864B-3B5CAE0C14C3}|IndexProfitWeb\\IndexProfitWeb.csproj|c:\\users\\localadmin\\source\\repos\\zheshangfundjob\\indexprofitweb\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6D42864E-760A-466C-864B-3B5CAE0C14C3}|IndexProfitWeb\\IndexProfitWeb.csproj|solutionrelative:indexprofitweb\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D42864E-760A-466C-864B-3B5CAE0C14C3}|IndexProfitWeb\\IndexProfitWeb.csproj|c:\\users\\localadmin\\source\\repos\\zheshangfundjob\\indexprofitweb\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6D42864E-760A-466C-864B-3B5CAE0C14C3}|IndexProfitWeb\\IndexProfitWeb.csproj|solutionrelative:indexprofitweb\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D42864E-760A-466C-864B-3B5CAE0C14C3}|IndexProfitWeb\\IndexProfitWeb.csproj|c:\\users\\localadmin\\source\\repos\\zheshangfundjob\\indexprofitweb\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6D42864E-760A-466C-864B-3B5CAE0C14C3}|IndexProfitWeb\\IndexProfitWeb.csproj|solutionrelative:indexprofitweb\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7F13FBCE-ADC5-4B95-80A2-A74A51479825}|ZheShangFundJob.AppHost\\ZheShangFundJob.AppHost.csproj|c:\\users\\localadmin\\source\\repos\\zheshangfundjob\\zheshangfundjob.apphost\\zheshangfundjob.apphost.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -78,28 +86,123 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\localadmin\\source\\repos\\ZheShangFundJob\\IndexProfitWeb\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "IndexProfitWeb\\wwwroot\\index.html",
+              "ToolTip": "C:\\Users\\localadmin\\source\\repos\\ZheShangFundJob\\IndexProfitWeb\\wwwroot\\index.html",
+              "RelativeToolTip": "IndexProfitWeb\\wwwroot\\index.html",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAkAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-08-14T11:03:17.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IndexProfitWeb",
+              "DocumentMoniker": "C:\\Users\\localadmin\\source\\repos\\ZheShangFundJob\\IndexProfitWeb\\IndexProfitWeb.csproj",
+              "RelativeDocumentMoniker": "IndexProfitWeb\\IndexProfitWeb.csproj",
+              "ToolTip": "C:\\Users\\localadmin\\source\\repos\\ZheShangFundJob\\IndexProfitWeb\\IndexProfitWeb.csproj",
+              "RelativeToolTip": "IndexProfitWeb\\IndexProfitWeb.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwYAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-14T10:56:51.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Profit.razor",
+              "DocumentMoniker": "C:\\Users\\localadmin\\source\\repos\\ZheShangFundJob\\IndexProfitWeb\\Pages\\Profit.razor",
+              "RelativeDocumentMoniker": "IndexProfitWeb\\Pages\\Profit.razor",
+              "ToolTip": "C:\\Users\\localadmin\\source\\repos\\ZheShangFundJob\\IndexProfitWeb\\Pages\\Profit.razor",
+              "RelativeToolTip": "IndexProfitWeb\\Pages\\Profit.razor",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAmwEoAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-13T10:52:55.653Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\localadmin\\source\\repos\\ZheShangFundJob\\ZheShangFundJob.AppHost\\appsettings.json",
+              "RelativeDocumentMoniker": "ZheShangFundJob.AppHost\\appsettings.json",
+              "ToolTip": "C:\\Users\\localadmin\\source\\repos\\ZheShangFundJob\\ZheShangFundJob.AppHost\\appsettings.json",
+              "RelativeToolTip": "ZheShangFundJob.AppHost\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-14T10:21:57.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\localadmin\\source\\repos\\ZheShangFundJob\\ZheShangFundJob.AppHost\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "ZheShangFundJob.AppHost\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\localadmin\\source\\repos\\ZheShangFundJob\\ZheShangFundJob.AppHost\\Properties\\launchSettings.json",
+              "RelativeToolTip": "ZheShangFundJob.AppHost\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-14T10:38:16.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\localadmin\\source\\repos\\ZheShangFundJob\\IndexProfitWeb\\Program.cs",
               "RelativeDocumentMoniker": "IndexProfitWeb\\Program.cs",
               "ToolTip": "C:\\Users\\localadmin\\source\\repos\\ZheShangFundJob\\IndexProfitWeb\\Program.cs",
               "RelativeToolTip": "IndexProfitWeb\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAACAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-13T10:51:17.845Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
+              "Title": "IndexProfitAPI.ProjectMetadata.g.cs",
+              "DocumentMoniker": "C:\\Users\\localadmin\\source\\repos\\ZheShangFundJob\\ZheShangFundJob.AppHost\\obj\\Debug\\net8.0\\Aspire\\references\\IndexProfitAPI.ProjectMetadata.g.cs",
+              "RelativeDocumentMoniker": "ZheShangFundJob.AppHost\\obj\\Debug\\net8.0\\Aspire\\references\\IndexProfitAPI.ProjectMetadata.g.cs",
+              "ToolTip": "C:\\Users\\localadmin\\source\\repos\\ZheShangFundJob\\ZheShangFundJob.AppHost\\obj\\Debug\\net8.0\\Aspire\\references\\IndexProfitAPI.ProjectMetadata.g.cs",
+              "RelativeToolTip": "ZheShangFundJob.AppHost\\obj\\Debug\\net8.0\\Aspire\\references\\IndexProfitAPI.ProjectMetadata.g.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAB9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T10:40:01.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\localadmin\\source\\repos\\ZheShangFundJob\\IndexProfitWeb\\App.razor",
+              "RelativeDocumentMoniker": "IndexProfitWeb\\App.razor",
+              "ToolTip": "C:\\Users\\localadmin\\source\\repos\\ZheShangFundJob\\IndexProfitWeb\\App.razor",
+              "RelativeToolTip": "IndexProfitWeb\\App.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-13T11:27:18.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\localadmin\\source\\repos\\ZheShangFundJob\\IndexProfitAPI\\appsettings.json",
               "RelativeDocumentMoniker": "IndexProfitAPI\\appsettings.json",
@@ -112,78 +215,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IndexProfitCalBLL.cs",
-              "DocumentMoniker": "C:\\Users\\localadmin\\source\\repos\\ZheShangFundJob\\IndexProfitAPI\\IndexProfitBLL\\IndexProfitCalBLL.cs",
-              "RelativeDocumentMoniker": "IndexProfitAPI\\IndexProfitBLL\\IndexProfitCalBLL.cs",
-              "ToolTip": "C:\\Users\\localadmin\\source\\repos\\ZheShangFundJob\\IndexProfitAPI\\IndexProfitBLL\\IndexProfitCalBLL.cs",
-              "RelativeToolTip": "IndexProfitAPI\\IndexProfitBLL\\IndexProfitCalBLL.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T10:11:28.593Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\localadmin\\source\\repos\\ZheShangFundJob\\ZheShangFundJob.AppHost\\Program.cs",
-              "RelativeDocumentMoniker": "ZheShangFundJob.AppHost\\Program.cs",
-              "ToolTip": "C:\\Users\\localadmin\\source\\repos\\ZheShangFundJob\\ZheShangFundJob.AppHost\\Program.cs",
-              "RelativeToolTip": "ZheShangFundJob.AppHost\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T10:11:28.515Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\localadmin\\source\\repos\\ZheShangFundJob\\IndexProfitAPI\\Program.cs",
-              "RelativeDocumentMoniker": "IndexProfitAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\localadmin\\source\\repos\\ZheShangFundJob\\IndexProfitAPI\\Program.cs",
-              "RelativeToolTip": "IndexProfitAPI\\Program.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABoAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T10:11:28.609Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Profit.razor",
-              "DocumentMoniker": "C:\\Users\\localadmin\\source\\repos\\ZheShangFundJob\\IndexProfitWeb\\Pages\\Profit.razor",
-              "RelativeDocumentMoniker": "IndexProfitWeb\\Pages\\Profit.razor",
-              "ToolTip": "C:\\Users\\localadmin\\source\\repos\\ZheShangFundJob\\IndexProfitWeb\\Pages\\Profit.razor",
-              "RelativeToolTip": "IndexProfitWeb\\Pages\\Profit.razor",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAACwAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-13T10:52:55.653Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\localadmin\\source\\repos\\ZheShangFundJob\\IndexProfitAPI\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "IndexProfitAPI\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\localadmin\\source\\repos\\ZheShangFundJob\\IndexProfitAPI\\Properties\\launchSettings.json",
-              "RelativeToolTip": "IndexProfitAPI\\Properties\\launchSettings.json",
-              "ViewState": "AQIAAAkAAAAAAAAAAADwvxAAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-13T11:21:40.517Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "IndexProfitRes.cs",
               "DocumentMoniker": "C:\\Users\\localadmin\\source\\repos\\ZheShangFundJob\\IndexProfitAPI\\Model\\IndexProfitRes.cs",
               "RelativeDocumentMoniker": "IndexProfitAPI\\Model\\IndexProfitRes.cs",
               "ToolTip": "C:\\Users\\localadmin\\source\\repos\\ZheShangFundJob\\IndexProfitAPI\\Model\\IndexProfitRes.cs",
               "RelativeToolTip": "IndexProfitAPI\\Model\\IndexProfitRes.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAYwAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-13T11:45:42.145Z",
               "EditorCaption": ""
@@ -191,6 +229,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\localadmin\\source\\repos\\ZheShangFundJob\\IndexProfitAPI\\Program.cs",
+              "RelativeDocumentMoniker": "IndexProfitAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\localadmin\\source\\repos\\ZheShangFundJob\\IndexProfitAPI\\Program.cs",
+              "RelativeToolTip": "IndexProfitAPI\\Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAABIwA0AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T10:11:28.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\localadmin\\source\\repos\\ZheShangFundJob\\ZheShangFundJob.AppHost\\Program.cs",
+              "RelativeDocumentMoniker": "ZheShangFundJob.AppHost\\Program.cs",
+              "ToolTip": "C:\\Users\\localadmin\\source\\repos\\ZheShangFundJob\\ZheShangFundJob.AppHost\\Program.cs",
+              "RelativeToolTip": "ZheShangFundJob.AppHost\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T10:11:28.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IndexProfitCalBLL.cs",
+              "DocumentMoniker": "C:\\Users\\localadmin\\source\\repos\\ZheShangFundJob\\IndexProfitAPI\\IndexProfitBLL\\IndexProfitCalBLL.cs",
+              "RelativeDocumentMoniker": "IndexProfitAPI\\IndexProfitBLL\\IndexProfitCalBLL.cs",
+              "ToolTip": "C:\\Users\\localadmin\\source\\repos\\ZheShangFundJob\\IndexProfitAPI\\IndexProfitBLL\\IndexProfitCalBLL.cs",
+              "RelativeToolTip": "IndexProfitAPI\\IndexProfitBLL\\IndexProfitCalBLL.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAABIwAwAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T10:11:28.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "Home.razor",
               "DocumentMoniker": "C:\\Users\\localadmin\\source\\repos\\ZheShangFundJob\\IndexProfitWeb\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "IndexProfitWeb\\Pages\\Home.razor",
@@ -203,7 +280,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "Counter.razor",
               "DocumentMoniker": "C:\\Users\\localadmin\\source\\repos\\ZheShangFundJob\\IndexProfitWeb\\Pages\\Counter.razor",
               "RelativeDocumentMoniker": "IndexProfitWeb\\Pages\\Counter.razor",
@@ -216,7 +293,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "_Imports.razor",
               "DocumentMoniker": "C:\\Users\\localadmin\\source\\repos\\ZheShangFundJob\\IndexProfitWeb\\_Imports.razor",
               "RelativeDocumentMoniker": "IndexProfitWeb\\_Imports.razor",
@@ -229,47 +306,8 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MainLayout.razor",
-              "DocumentMoniker": "C:\\Users\\localadmin\\source\\repos\\ZheShangFundJob\\IndexProfitWeb\\Layout\\MainLayout.razor",
-              "RelativeDocumentMoniker": "IndexProfitWeb\\Layout\\MainLayout.razor",
-              "ToolTip": "C:\\Users\\localadmin\\source\\repos\\ZheShangFundJob\\IndexProfitWeb\\Layout\\MainLayout.razor",
-              "RelativeToolTip": "IndexProfitWeb\\Layout\\MainLayout.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-13T11:27:25.967Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "App.razor",
-              "DocumentMoniker": "C:\\Users\\localadmin\\source\\repos\\ZheShangFundJob\\IndexProfitWeb\\App.razor",
-              "RelativeDocumentMoniker": "IndexProfitWeb\\App.razor",
-              "ToolTip": "C:\\Users\\localadmin\\source\\repos\\ZheShangFundJob\\IndexProfitWeb\\App.razor",
-              "RelativeToolTip": "IndexProfitWeb\\App.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-13T11:27:18.293Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "NavMenu.razor",
-              "DocumentMoniker": "C:\\Users\\localadmin\\source\\repos\\ZheShangFundJob\\IndexProfitWeb\\Layout\\NavMenu.razor",
-              "RelativeDocumentMoniker": "IndexProfitWeb\\Layout\\NavMenu.razor",
-              "ToolTip": "C:\\Users\\localadmin\\source\\repos\\ZheShangFundJob\\IndexProfitWeb\\Layout\\NavMenu.razor",
-              "RelativeToolTip": "IndexProfitWeb\\Layout\\NavMenu.razor",
-              "ViewState": "AQIAAAYAAAAAAAAAAADwvxYAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-13T11:27:31.99Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ZheShangFundJob.AppHost",
+              "DocumentIndex": 16,
+              "Title": "ZheShangFundJob.AppHost.csproj",
               "DocumentMoniker": "C:\\Users\\localadmin\\source\\repos\\ZheShangFundJob\\ZheShangFundJob.AppHost\\ZheShangFundJob.AppHost.csproj",
               "RelativeDocumentMoniker": "ZheShangFundJob.AppHost\\ZheShangFundJob.AppHost.csproj",
               "ToolTip": "C:\\Users\\localadmin\\source\\repos\\ZheShangFundJob\\ZheShangFundJob.AppHost\\ZheShangFundJob.AppHost.csproj",
@@ -281,20 +319,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "ProfitController.cs",
               "DocumentMoniker": "C:\\Users\\localadmin\\source\\repos\\ZheShangFundJob\\IndexProfitAPI\\Conrollers\\ProfitController.cs",
               "RelativeDocumentMoniker": "IndexProfitAPI\\Conrollers\\ProfitController.cs",
               "ToolTip": "C:\\Users\\localadmin\\source\\repos\\ZheShangFundJob\\IndexProfitAPI\\Conrollers\\ProfitController.cs",
               "RelativeToolTip": "IndexProfitAPI\\Conrollers\\ProfitController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAcAAAAeAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAABIwAcAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-06T10:11:28.609Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "IndexProfitAPI.http",
               "DocumentMoniker": "C:\\Users\\localadmin\\source\\repos\\ZheShangFundJob\\IndexProfitAPI\\IndexProfitAPI.http",
               "RelativeDocumentMoniker": "IndexProfitAPI\\IndexProfitAPI.http",
