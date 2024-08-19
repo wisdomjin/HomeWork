@@ -61,6 +61,11 @@ namespace IndexProfitAPI.IndexProfitBLL
                                 indexProfitRes.IndexProfit = dicInfo[info.Key].ToString("0.00");
                                 res.Add(indexProfitRes);
                             }
+                            else
+                            {
+                                indexProfitRes.IndexProfit = "";
+                                res.Add(indexProfitRes);
+                            }
                         }
                     }
                 }
