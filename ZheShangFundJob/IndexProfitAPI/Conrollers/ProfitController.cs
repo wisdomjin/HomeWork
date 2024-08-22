@@ -23,7 +23,7 @@ namespace IndexProfitAPI.Conrollers
         [Route("{beginDate}/{endDate}")]
         public async Task<ActionResult<List<IndexProfitRes>>> GetProfitInfo(string beginDate, string endDate)
         {
-            _logger.LogInformation($"-------请求时间：{DateTime.Now.ToString()}------");
+            _logger.LogInformation($"-------请求时间：{DateTime.Now.ToString()}------起始:{beginDate}结束：{endDate}");
             List<IndexProfitRes> res = await _indexProfitCalBLL.GetRes(beginDate, endDate);
             return new ActionResult<List<IndexProfitRes>>(res);
         }
