@@ -1,4 +1,5 @@
-﻿using IndexProfitAPI.Model;
+﻿using IndexProfitAPI.Conrollers;
+using IndexProfitAPI.Model;
 using NPOI.SS.Formula.Functions;
 using NPOI.SS.UserModel;
 using System.Data;
@@ -7,70 +8,82 @@ namespace IndexProfitAPI.IndexProfitBLL
 {
     public class IndexProfitCalBLL
     {
+        private readonly ILogger<IndexProfitCalBLL> _logger;
+        public IndexProfitCalBLL(ILogger<IndexProfitCalBLL> logger) {
+            _logger= logger;
+        }
         public async Task<List<IndexProfitRes>> GetRes(string beginDate, string endDate)
         {
             List<IndexProfitRes> res = new List<IndexProfitRes>();
-            DataTable dataTable = this.GetExcelData("File/作业.xlsx", "数据",7);
-            DataRow[] dataRows = dataTable.AsEnumerable().Where(row => DateTime.Parse(beginDate) <= row.Field<DateTime>("日期") &&
-            DateTime.Parse(endDate) >= row.Field<DateTime>("日期")).OrderBy(row=> row.Field<DateTime>("日期")).ToArray();
-            if (dataRows.Count() > 0)
-            { 
-                Dictionary<string,double> dicInfo= new Dictionary<string,double>();
-                foreach (var column in dataRows[0].Table.Columns) {
-                    if (column.ToString() != "日期" && column.ToString() != "上证指数")
-                    {
-                        dicInfo.Add(column.ToString(), double.MinValue);
-                    }
-                }
-                //上证指数涨跌幅 贵州茅台涨跌幅 股票单日涨跌幅 - 上证指数涨跌幅 相对收益
-                for (int rows = 0; rows < dataRows.Length; rows++)
+            try {
+                DataTable dataTable = this.GetExcelData("File/作业.xlsx", "数据", 7);
+                DataRow[] dataRows = dataTable.AsEnumerable().Where(row => DateTime.Parse(beginDate) <= row.Field<DateTime>("日期") &&
+                DateTime.Parse(endDate) >= row.Field<DateTime>("日期")).OrderBy(row => row.Field<DateTime>("日期")).ToArray();
+                if (dataRows.Count() > 0)
                 {
-                    string tDate= ((DateTime)dataRows[rows]["日期"]).ToString("yyyy-MM-dd");
-                    foreach (var info in dicInfo)
+                    Dictionary<string, double> dicInfo = new Dictionary<string, double>();
+                    foreach (var column in dataRows[0].Table.Columns)
                     {
-                        IndexProfitRes indexProfitRes = new IndexProfitRes();
-                        indexProfitRes.TDate = tDate;
-                        indexProfitRes.StockName = info.Key;
-                        if (dataRows[rows][info.Key].GetType() != typeof(System.DBNull))
+                        if (column.ToString() != "日期" && column.ToString() != "上证指数")
                         {
-                            if (info.Value == double.MinValue)
-                                dicInfo[info.Key] = 1;
-                            else
+                            dicInfo.Add(column.ToString(), double.MinValue);
+                        }
+                    }
+                    //上证指数涨跌幅 贵州茅台涨跌幅 股票单日涨跌幅 - 上证指数涨跌幅 相对收益
+                    for (int rows = 0; rows < dataRows.Length; rows++)
+                    {
+                        string tDate = ((DateTime)dataRows[rows]["日期"]).ToString("yyyy-MM-dd");
+                        foreach (var info in dicInfo)
+                        {
+                            IndexProfitRes indexProfitRes = new IndexProfitRes();
+                            indexProfitRes.TDate = tDate;
+                            indexProfitRes.StockName = info.Key;
+                            if (dataRows[rows][info.Key].GetType() != typeof(System.DBNull))
                             {
-                                if (rows != 0)
+                                if (info.Value == double.MinValue)
+                                    dicInfo[info.Key] = 1;
+                                else
                                 {
-                                    DataRow drLast = dataRows[rows - 1];
-                                    if (drLast[info.Key].GetType() != typeof(System.DBNull))
+                                    if (rows != 0)
                                     {
-                                        double growStock = (double)dataRows[rows][info.Key] /
-                                            (double)drLast[info.Key] - 1;
-                                        double growIndex = (double)dataRows[rows]["上证指数"] /
-                                           (double)drLast["上证指数"] - 1;
-                                        double growth = (growStock - growIndex + 1) * (double)dicInfo[info.Key];
-                                        dicInfo[info.Key] = growth;
+                                        DataRow drLast = dataRows[rows - 1];
+                                        if (drLast[info.Key].GetType() != typeof(System.DBNull))
+                                        {
+                                            double growStock = (double)dataRows[rows][info.Key] /
+                                                (double)drLast[info.Key] - 1;
+                                            double growIndex = (double)dataRows[rows]["上证指数"] /
+                                               (double)drLast["上证指数"] - 1;
+                                            double growth = (growStock - growIndex + 1) * (double)dicInfo[info.Key];
+                                            dicInfo[info.Key] = growth;
+                                        }
                                     }
                                 }
-                            }
-                            indexProfitRes.IndexProfit = dicInfo[info.Key].ToString("0.00");
-                            res.Add(indexProfitRes);
-                        }
-                        else
-                        {
-                            if (info.Value != double.MinValue)
-                            {
                                 indexProfitRes.IndexProfit = dicInfo[info.Key].ToString("0.00");
                                 res.Add(indexProfitRes);
                             }
                             else
                             {
-                                indexProfitRes.IndexProfit = "";
-                                res.Add(indexProfitRes);
+                                if (info.Value != double.MinValue)
+                                {
+                                    indexProfitRes.IndexProfit = dicInfo[info.Key].ToString("0.00");
+                                    res.Add(indexProfitRes);
+                                }
+                                else
+                                {
+                                    indexProfitRes.IndexProfit = "";
+                                    res.Add(indexProfitRes);
+                                }
                             }
                         }
                     }
                 }
+                return res;
             }
-            return res;
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "读取Excel异常");
+                return res;
+            }
         }
 
         /// <summary>
