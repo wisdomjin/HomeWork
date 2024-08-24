@@ -1,0 +1,115 @@
+﻿@page "/profit"
+@inject HttpClient Http
+@using Blazor.ECharts.Components
+@using Blazor.ECharts.Options
+@using Blazor.ECharts.Options.Enum
+@using L = Blazor.ECharts.Options.Series.Line
+@using MatBlazor
+@* @inherits LayoutComponentBase *@
+
+
+
+<PageTitle>IndexProfit</PageTitle>
+
+<h2 style="text-align:center;">上证指数相对收益</h2>
+
+<div style="width:90%; margin:auto;">
+    <MatDatePicker TValue="DateTime?" @bind-Value="@beginDate"  Format="yyyy-MM-dd" Minimum ="minDate" Maximum="maxDate"></MatDatePicker>
+    <MatDatePicker TValue="DateTime?" @bind-Value="@endDate" Format="yyyy-MM-dd" Minimum="minDate" Maximum="maxDate"></MatDatePicker>
+    <button @onclick="reloadMap" style="margin-left:10px;" class="btn btn-w-m btn-primary ">查询</button>
+    <button @onclick="ChangeTheme" style="margin-left:20px;" class="btn btn-w-m btn-primary ">切换主题 @theme</button>
+</div>
+<div class="chart-container" style="margin-top:10px;">
+    <ELine Option="@Option" Class="chart-normal" Theme="@theme"></ELine>
+</div>
+
+@code {
+    private DateTime? beginDate;
+    private DateTime? endDate;
+    private IndexProfitRes[]? profits;
+    private EChartsOption<L.Line> Option;
+    private string theme = "light";
+    private DateTime minDate = new DateTime(2019, 1, 1);
+    private DateTime maxDate = new DateTime(2019, 12, 31);
+    protected override async Task OnInitializedAsync()
+    {
+        base.OnInitialized(); 
+        beginDate = new DateTime(2019, 1, 1);
+        endDate = new DateTime(2019, 2, 1);
+        await reloadMap();
+    }
+    protected  async Task reloadMap()
+    {
+        string startDate = beginDate.Value.ToLocalTime().ToString("yyyy-MM-dd");
+        string endsDate = endDate.Value.ToLocalTime().ToString("yyyy-MM-dd");
+        profits = await Http.GetFromJsonAsync<IndexProfitRes[]>($"Index/Profit/{startDate}/{endsDate}");
+        //profits = await Http.GetFromJsonAsync<IndexProfitRes[]>($"Index/Profit/2019-06-17/2019-07-18");
+        string[] xStr = profits.Select(p => p.TDate).Distinct().ToArray();
+        string[] legend = profits.Select(p => p.StockName).Distinct().ToArray();
+        List<L.Line> lines = new List<L.Line>();
+        for (int i = 0; i < legend.Length; i++)
+        {
+            string[] profit = profits.Where(p => p.StockName == legend[i]).Select(p => p.IndexProfit).ToArray();
+            L.Line line = new L.Line()
+                {
+                    Type = "line",
+                    Data = profit,
+                    Name = legend[i]
+                };
+            lines.Add(line);
+        }
+        Option = new()
+            {
+                Title = new()
+                {
+                    Text = ""
+                },
+                Tooltip = new() { Trigger = TooltipTrigger.Axis },
+                YAxis = new()
+            {
+                new()
+                {
+                    Type = AxisType.Value
+                }
+            },
+                XAxis = new()
+            {
+                new()
+                {
+                    Type = AxisType.Category,
+                    Data = xStr//new[] { "Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun" }
+                }
+            },
+                Legend = new()
+                {
+                    Data = legend
+                },
+                Series = new(lines)
+                {
+
+                }
+            };
+    }
+    public class IndexProfitRes
+    {
+        /// <summary>
+        /// 日期
+        /// </summary>
+        public string? TDate { get; set; }
+        /// <summary>
+        /// 股票名称
+        /// </summary>
+        public string? StockName { get; set; }
+        /// <summary>
+        /// 当日上证指数相对收益
+        /// </summary>
+        public string? IndexProfit { get; set; }
+    }
+    private Task ChangeTheme()
+    {
+        theme = theme == "light" ? "dark" : "light";
+        //通知组件其状态已更改。 如果适用，这将导致重新呈现组件
+        StateHasChanged();
+        return Task.CompletedTask;
+    }
+}
